@@ -1,0 +1,10 @@
+yolo_model:
+
+  video_file:
+    name: /home/raf/tkDNN/demo/yolo_test.mp4
+  weights_file:
+    name: /home/chemcello/Softwares/tkDNN/build/yolov4-tiny-droplet-binary_fp32.rt
+  threshold:
+    value: 0.8
+  detection_classes:
+    value: 2

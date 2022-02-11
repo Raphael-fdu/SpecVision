@@ -1,0 +1,65 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/chemcello/Projects/SpecVision/SpecVision_Core/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_04a57/fast && /usr/bin/make  -f CMakeFiles/cmTC_04a57.dir/build.make CMakeFiles/cmTC_04a57.dir/build
+make[1]: Entering directory '/home/chemcello/Projects/SpecVision/SpecVision_Core/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_04a57.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_04a57.dir/src.c.o -c /home/chemcello/Projects/SpecVision/SpecVision_Core/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_04a57
+/home/chemcello/Softwares/cmake-3.20.0-rc5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04a57.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_04a57.dir/src.c.o -o cmTC_04a57 
+CMakeFiles/cmTC_04a57.dir/src.c.o: In function `main':
+src.c:(.text+0x3e): undefined reference to `pthread_create'
+src.c:(.text+0x4a): undefined reference to `pthread_detach'
+src.c:(.text+0x56): undefined reference to `pthread_cancel'
+src.c:(.text+0x67): undefined reference to `pthread_join'
+src.c:(.text+0x7b): undefined reference to `pthread_atfork'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_04a57.dir/build.make:98: recipe for target 'cmTC_04a57' failed
+make[1]: *** [cmTC_04a57] Error 1
+make[1]: Leaving directory '/home/chemcello/Projects/SpecVision/SpecVision_Core/build/CMakeFiles/CMakeTmp'
+Makefile:127: recipe for target 'cmTC_04a57/fast' failed
+make: *** [cmTC_04a57/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/chemcello/Projects/SpecVision/SpecVision_Core/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1e20d/fast && /usr/bin/make  -f CMakeFiles/cmTC_1e20d.dir/build.make CMakeFiles/cmTC_1e20d.dir/build
+make[1]: Entering directory '/home/chemcello/Projects/SpecVision/SpecVision_Core/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1e20d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_1e20d.dir/CheckFunctionExists.c.o -c /home/chemcello/Softwares/cmake-3.20.0-rc5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1e20d
+/home/chemcello/Softwares/cmake-3.20.0-rc5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e20d.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_1e20d.dir/CheckFunctionExists.c.o -o cmTC_1e20d  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_1e20d.dir/build.make:98: recipe for target 'cmTC_1e20d' failed
+make[1]: *** [cmTC_1e20d] Error 1
+make[1]: Leaving directory '/home/chemcello/Projects/SpecVision/SpecVision_Core/build/CMakeFiles/CMakeTmp'
+Makefile:127: recipe for target 'cmTC_1e20d/fast' failed
+make: *** [cmTC_1e20d/fast] Error 2
+
+
+

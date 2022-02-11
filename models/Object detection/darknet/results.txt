@@ -1,0 +1,91 @@
+ CUDNN_HALF=1 
+net.optimized_memory = 0 
+mini_batch = 1, batch = 16, time_steps = 1, train = 0 
+Create CUDA-stream - 1 
+ Create cudnn-handle 1 
+nms_kind: greedynms (1), beta = 0.600000 
+nms_kind: greedynms (1), beta = 0.600000 
+
+ seen 64, trained: 18722 K-images (292 Kilo-batches_64) 
+Enter Image Path:  Detection layer: 30 - type = 28 
+ Detection layer: 37 - type = 28 
+/home/chemcello/Desktop/robustness_test/blur.jpg: Predicted in 3.545000 milli-seconds.
+empty_droplet: 100%
+Enter Image Path:  Detection layer: 30 - type = 28 
+ Detection layer: 37 - type = 28 
+/home/chemcello/Desktop/robustness_test/blur1.jpg: Predicted in 2.541000 milli-seconds.
+empty_droplet: 100%
+Enter Image Path:  Detection layer: 30 - type = 28 
+ Detection layer: 37 - type = 28 
+/home/chemcello/Desktop/robustness_test/blur2.jpg: Predicted in 2.313000 milli-seconds.
+empty_droplet: 100%
+Enter Image Path:  Detection layer: 30 - type = 28 
+ Detection layer: 37 - type = 28 
+/home/chemcello/Desktop/robustness_test/blur3.jpg: Predicted in 2.185000 milli-seconds.
+empty_droplet: 100%
+Enter Image Path:  Detection layer: 30 - type = 28 
+ Detection layer: 37 - type = 28 
+/home/chemcello/Desktop/robustness_test/blur4.jpg: Predicted in 2.075000 milli-seconds.
+empty_droplet: 94%
+Enter Image Path:  Detection layer: 30 - type = 28 
+ Detection layer: 37 - type = 28 
+/home/chemcello/Desktop/robustness_test/brightness.jpg: Predicted in 1.933000 milli-seconds.
+empty_droplet: 100%
+Enter Image Path:  Detection layer: 30 - type = 28 
+ Detection layer: 37 - type = 28 
+/home/chemcello/Desktop/robustness_test/brightnesses1.jpg: Predicted in 1.911000 milli-seconds.
+empty_droplet: 100%
+Enter Image Path:  Detection layer: 30 - type = 28 
+ Detection layer: 37 - type = 28 
+/home/chemcello/Desktop/robustness_test/brightnesses2.jpg: Predicted in 1.880000 milli-seconds.
+empty_droplet: 100%
+Enter Image Path:  Detection layer: 30 - type = 28 
+ Detection layer: 37 - type = 28 
+/home/chemcello/Desktop/robustness_test/brightnesses3.jpg: Predicted in 1.899000 milli-seconds.
+empty_droplet: 100%
+Enter Image Path:  Detection layer: 30 - type = 28 
+ Detection layer: 37 - type = 28 
+/home/chemcello/Desktop/robustness_test/brightnesses4.jpg: Predicted in 1.848000 milli-seconds.
+empty_droplet: 100%
+Enter Image Path:  Detection layer: 30 - type = 28 
+ Detection layer: 37 - type = 28 
+/home/chemcello/Desktop/robustness_test/color.jpg: Predicted in 1.836000 milli-seconds.
+empty_droplet: 100%
+Enter Image Path:  Detection layer: 30 - type = 28 
+ Detection layer: 37 - type = 28 
+/home/chemcello/Desktop/robustness_test/color0.jpg: Predicted in 1.862000 milli-seconds.
+empty_droplet: 100%
+Enter Image Path:  Detection layer: 30 - type = 28 
+ Detection layer: 37 - type = 28 
+/home/chemcello/Desktop/robustness_test/color1.jpg: Predicted in 1.824000 milli-seconds.
+empty_droplet: 100%
+Enter Image Path:  Detection layer: 30 - type = 28 
+ Detection layer: 37 - type = 28 
+/home/chemcello/Desktop/robustness_test/color2.jpg: Predicted in 1.817000 milli-seconds.
+empty_droplet: 100%
+Enter Image Path:  Detection layer: 30 - type = 28 
+ Detection layer: 37 - type = 28 
+/home/chemcello/Desktop/robustness_test/color3.jpg: Predicted in 1.914000 milli-seconds.
+empty_droplet: 100%
+Enter Image Path:  Detection layer: 30 - type = 28 
+ Detection layer: 37 - type = 28 
+/home/chemcello/Desktop/robustness_test/size1.jpg: Predicted in 1.807000 milli-seconds.
+empty_droplet: 100%
+Enter Image Path:  Detection layer: 30 - type = 28 
+ Detection layer: 37 - type = 28 
+/home/chemcello/Desktop/robustness_test/size2.jpg: Predicted in 1.827000 milli-seconds.
+empty_droplet: 100%
+empty_droplet: 77%
+Enter Image Path:  Detection layer: 30 - type = 28 
+ Detection layer: 37 - type = 28 
+/home/chemcello/Desktop/robustness_test/size3.jpg: Predicted in 1.808000 milli-seconds.
+empty_droplet: 100%
+Enter Image Path:  Detection layer: 30 - type = 28 
+ Detection layer: 37 - type = 28 
+/home/chemcello/Desktop/robustness_test/size4.jpg: Predicted in 1.757000 milli-seconds.
+empty_droplet: 100%
+empty_droplet: 99%
+empty_droplet: 98%
+droplet_with_content: 61%
+empty_droplet: 34%
+Enter Image Path: 

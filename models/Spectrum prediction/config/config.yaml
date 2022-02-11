@@ -1,0 +1,7 @@
+lr: 0.0001
+epochs: 200
+batch_size: 16
+train_ratio: 0.7
+data_path: 'Your/data/path'
+label_path: 'Your/label/path'
+img_size: 224

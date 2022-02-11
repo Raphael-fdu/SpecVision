@@ -1,0 +1,8 @@
+prefix=/home/chemcello/Projects/SpecVision/SpecVision_Core/devel
+
+Name: tkdnn_ros
+Description: Description of tkdnn_ros
+Version: 0.0.0
+Cflags: -I/home/chemcello/Projects/SpecVision/SpecVision_Core/devel/include -I/home/chemcello/Projects/SpecVision/SpecVision_Core/src/DetectionNode/tkdnn_ros/include
+Libs: -L${prefix}/lib -ltkdnn_ros
+Requires: roscpp rospy std_msgs tf image_transport cv_bridge message_runtime

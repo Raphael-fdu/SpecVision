@@ -1,0 +1,8 @@
+prefix=/home/chemcello/Projects/SpecVision/SpecVision_Core/install
+
+Name: SpecPredNode
+Description: Description of SpecPredNode
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

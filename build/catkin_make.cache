@@ -1,0 +1,2 @@
+CameraNode:DetectionNode/tkdnn_ros:SpecPredNode
+-DCATKIN_DEVEL_PREFIX=/home/chemcello/Projects/SpecVision/SpecVision_Core/devel -DCMAKE_INSTALL_PREFIX=/home/chemcello/Projects/SpecVision/SpecVision_Core/install -G Unix Makefiles

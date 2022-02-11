@@ -1,0 +1,273 @@
+# ----------------- #
+Start time:1626858977.9483354
+End time:2021-07-21 17:18:13
+Last train loss:0.02247486026449637
+Last valid loss:0.01615824751359852
+Epochs:50
+lr:0.001
+comment:Transfer learning trial 3, lr=0.001, 4 layers
+# ----------------- #
+Start time:1626859136.5446649
+End time:2021-07-21 17:20:50
+Last train loss:0.023185597711496732
+Last valid loss:0.015932890096385228
+Epochs:50
+lr:0.0005
+comment:Transfer learning trial 4, lr=0.0005, 4 layers
+# ----------------- #
+Start time:1626859338.5519426
+End time:2021-07-21 17:24:14
+Last train loss:0.024282993050292134
+Last valid loss:0.0184459619800021
+Epochs:50
+lr:0.0005
+comment:Transfer learning trial 5, lr=0.0005, 5 layers
+# ----------------- #
+Start time:1626862073.3472714
+End time:2021-07-21 18:09:56
+Last train loss:0.019153094686440785
+Last valid loss:0.013837957626061612
+Epochs:50
+lr:0.0005
+comment:Transfer learning trial 6, lr=0.0005, 5 layers, unlock fcc2
+# ----------------- #
+Start time:1626862343.956104
+End time:2021-07-21 18:20:28
+Last train loss:0.006864177590945143
+Last valid loss:0.006805106568591375
+Epochs:200
+lr:0.0001
+comment:Transfer learning trial 7, lr=0.0005, 5 layers, unlock fcc2
+The sampled plots looks significantly better than model trained without transfer learning
+# ----------------- #
+Start time:1626863183.6203947
+End time:2021-07-21 18:34:04
+Last train loss:0.011311305927599526
+Last valid loss:0.00833959325437287
+Epochs:200
+lr:0.0001
+comment:Transfer learning trial 8, lr=0.0005, 5 layers, lock fcc2, 200 epochs
+# ----------------- #
+Start time:1626863695.2566526
+End time:2021-07-21 18:59:16
+Last train loss:0.0004916051240632606
+Last valid loss:0.009010831372028119
+Epochs:600
+lr:0.0001
+comment:Transfer learning trial 9, lr=0.0001, 5 layers, unlock fcc2, 600 epochs
+# ----------------- #
+trial:10
+Start time:1626925366.488369
+End time:2021-07-22 12:09:58
+Last train loss:0.0001580727576682958
+Last valid loss:0.003360758118919636
+Epochs:600
+lr:0.0001
+comment:Transfer learning, 5 layers unlock fcc2, fix dataset error
+# ----------------- #
+trial:11
+Start time:1626930037.6190329
+End time:2021-07-22 13:02:42
+Last train loss:0.00244924387450076
+Last valid loss:0.004266705511039809
+Epochs:50
+lr:0.0001
+comment:add temp test code to train.py
+# ----------------- #
+trial:12
+Start time:1626935869.5660303
+End time:2021-07-22 14:39:54
+Last train loss:0.0037621335227000104
+Last valid loss:0.004858893323934784
+Epochs:50
+lr:0.0001
+comment:use Image.open instead of Image.from_array
+# ----------------- #
+trial:13
+Start time:1626937477.113478
+End time:2021-07-22 15:06:36
+Last train loss:0.003004104287935082
+Last valid loss:0.004676676257268379
+Epochs:50
+lr:0.0001
+comment:slightly change in testset
+# ----------------- #
+trial:14
+Start time:1626938087.1531308
+End time:2021-07-22 15:16:47
+Last train loss:0.002751806152942167
+Last valid loss:0.0035160549573208157
+Epochs:50
+lr:0.0001
+comment:slight change in testset
+# ----------------- #
+trial:15
+Start time:1627023844.1717997
+End time:2021-07-23 15:06:10
+Last train loss:0.0033611992310563273
+Last valid loss:0.004899974979803358
+Epochs:50
+lr:0.0001
+comment:add fastDrop to train set
+# ----------------- #
+trial:16
+Start time:1627029143.3246572
+End time:2021-07-23 16:40:33
+Last train loss:0.0008013855046804317
+Last valid loss:0.0028643296774182665
+Epochs:200
+lr:0.0001
+comment:turn to 200 epochs
+# ----------------- #
+trial:17
+Start time:1627030643.5045671
+End time:2021-07-23 17:05:28
+Last train loss:0.0008220365905964917
+Last valid loss:0.0026594633573519162
+Epochs:200
+lr:0.0001
+comment:minor change in the train set 60->64
+# ----------------- #
+trial:18
+Start time:1627031873.6052616
+End time:2021-07-23 17:26:01
+Last train loss:0.0009209821490168741
+Last valid loss:0.0024291298223512343
+Epochs:200
+lr:0.0001
+comment:minor changes in trainset
+# ----------------- #
+trial:19
+Start time:1627038614.6529412
+End time:2021-07-23 19:14:18
+Last train loss:0.0014019683360608972
+Last valid loss:0.003106432764692918
+Epochs:100
+lr:0.0001
+comment:Change to 100 epochs to reduce memory effect
+# ----------------- #
+trial:20
+Start time:1627199644.2022586
+End time:2021-07-25 15:59:14
+Last train loss:0.0012003220326732844
+Last valid loss:0.0029207653010656174
+Epochs:100
+lr:0.0001
+comment:fix trainset error
+# ----------------- #
+trial:21
+Start time:1627289755.2117841
+End time:2021-07-26 16:58:01
+Last train loss:0.0043684142027896914
+Last valid loss:0.00501191987361955
+Epochs:50
+lr:0.0001
+comment:50 epochs
+# ----------------- #
+trial:22
+Start time:1627353255.4486604
+End time:2021-07-27 10:36:22
+Last train loss:0.004632899823429232
+Last valid loss:0.005240325454475456
+Epochs:50
+lr:0.0001
+comment:train_from_scratch
+# ----------------- #
+trial:23
+Start time:1627353668.223739
+End time:2021-07-27 10:43:06
+Last train loss:0.01939023658633232
+Last valid loss:0.02013150678555432
+Epochs:50
+lr:0.0001
+comment: train_from_scratch 1 layer in fcc2
+# ----------------- #
+trial:24
+Start time:1627353862.9971194
+End time:2021-07-27 10:46:18
+Last train loss:0.004270501000891355
+Last valid loss:0.005676816952855964
+Epochs:50
+lr:0.0001
+comment:transfer learning 1 layer in fcc2
+# ----------------- #
+trial:31
+Start time:1627390605.615137
+End time:2021-07-27 20:58:35
+Last train loss:0.024029519959268244
+Last valid loss:0.02341105950702178
+Epochs:50
+lr:2e-05
+comment:50 epochs 0.00002
+# ----------------- #
+trial:32
+Start time:1627391673.2504084
+End time:2021-07-27 21:16:35
+Last train loss:0.014337022704156962
+Last valid loss:0.013612970170613966
+Epochs:50
+lr:2e-05
+comment:transfer learning 
+# ----------------- #
+trial:33
+Start time:1627391894.6755147
+End time:2021-07-27 21:22:07
+Last train loss:0.0019787826379549438
+Last valid loss:0.004298729258344362
+Epochs:100
+lr:0.0001
+comment:transfer learning 
+# ----------------- #
+trial:34
+Start time:1627436869.441878
+End time:2021-07-28 09:49:57
+Last train loss:0.014991907191208818
+Last valid loss:0.016366969916577403
+Epochs:50
+lr:0.0001
+comment:remove last cnn layer
+# ----------------- #
+trial:34
+Start time:1627437849.3298292
+End time:2021-07-28 10:06:02
+Last train loss:0.02192532288079912
+Last valid loss:0.023666945629213985
+Epochs:50
+lr:0.0001
+comment:from scratch 100 epochs
+# ----------------- #
+trial:34
+Start time:1627438269.4285922
+End time:2021-07-28 10:14:57
+Last train loss:0.016291568415578116
+Last valid loss:0.018738532781993087
+Epochs:100
+lr:0.0001
+comment:from scratch 100 epochs
+# ----------------- #
+trial:35
+Start time:1627452648.4376478
+End time:2021-07-28 14:18:21
+Last train loss:0.010307589355348186
+Last valid loss:0.013155722157343439
+Epochs:200
+lr:0.0001
+comment:from scratch 200 epochs
+# ----------------- #
+trial:35
+Start time:1627453322.6026983
+End time:2021-07-28 14:25:52
+Last train loss:0.015376873377879912
+Last valid loss:0.01710854757479147
+Epochs:100
+lr:0.0001
+comment:100 epochs scratch final
+# ----------------- #
+trial:36
+Start time:1628216563.103618
+End time:2021-08-06 10:25:33
+Last train loss:0.001864139096472751
+Last valid loss:0.004150615919283346
+Epochs:100
+lr:0.0001
+comment:for use in robot_ws TL

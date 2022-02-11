@@ -1,0 +1,8 @@
+prefix=/home/chemcello/Projects/SpecVision/SpecVision_Core/devel
+
+Name: euresys_cam
+Description: Description of euresys_cam
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

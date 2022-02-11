@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<launch>
+    <!-- ROS and network parameter files -->
+    
+    <arg name="network_param_file" default="$(find tkdnn_ros)/config/tkdnn.yaml"/>
+    <include file="$(find galaxy_camera)/launch/MER-139.launch"/>
+    <include file="$(find galaxy_camera_2)/launch/MER-139.launch"/>
+
+    <!-- Load parameters -->
+    <rosparam command="load" file="$(arg network_param_file)"/>
+
+    <node pkg="tkdnn_ros" name="tkdnn_ros" type="tkdnn_ros" respawn="true" output="screen">
+    </node>
+</launch>

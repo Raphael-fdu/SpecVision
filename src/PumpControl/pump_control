@@ -1,0 +1,5 @@
+#! /bin/bash
+
+python3 /home/chemcello/Softwares/Pump-Control-Program-master/pump_control.py 
+
+
