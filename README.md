@@ -1,6 +1,6 @@
 # SpecVision
 
-
+Author: Xucheng (Raphael) Zhang
 
 ## Intro
 
