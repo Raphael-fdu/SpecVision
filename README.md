@@ -130,7 +130,7 @@ Make sure all prerequisites are properly installed.
 4. Run PivotNode
 
    ```shell
-   rosrun PivotNode gui.py
+   rosrun PivotNode pivot.py
    ```
 
    
